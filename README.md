@@ -1,8 +1,11 @@
 <a title="William B. Faulk [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Pythagoras-proof-anim.svg"><img width="256" alt="Pythagoras-proof-anim" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pythagoras-proof-anim.svg/256px-Pythagoras-proof-anim.svg.png"></a> 
+
 <p>
+
 **Math 2710W: Transition to Higher Mathematics** <br>
 **Spring Semester 2020** <br>
 **University of Connecticut** <br>
+
 </p>
 
 
