@@ -1,2 +1,9 @@
 blackboard/
+auto/
 2019
+*.out
+*.log
+*.aux
+*~
+\#*
+video/
