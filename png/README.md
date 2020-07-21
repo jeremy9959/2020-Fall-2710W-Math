@@ -1,3 +1,9 @@
+### Standard Calculus example
+
+![calculus_example](./calculus.png)
+
+from [APEX Calculus](https://drive.google.com/file/d/1r6GPxwW5hHU2xMNih6_dXB_AuSL5Lte_/view) by Hartmann, *et. al.*
+
 ### Algebra Example
 
 ![algebra_example](./algebra_example.png) 
