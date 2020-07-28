@@ -24,6 +24,18 @@ means $A$ is the set whose elements are $1$, $2$, and $3$.  The symbols $\{$ and
 are special and are used to describe sets.
 
 **Note:** The sets $A=\{1,2,3\}$ and $B=\{3,1,2\}$ are the same because they have the same elements.
+So we write $A=B$.
+
+## The $\in$ symbol
+
+The symbol $\in$, which looks a little like a backwards $3$ and a little like a greek $\epsilon$,
+means "is an element of." 
+
+- $1\in A$ means $1$ is an element of the set $A$.  
+
+The symbol $\not\in$ means "is not an element of."  
+
+- $5\not\in A$ means that $5$ is not an element of $A$.
 
 ## Basic examples
 
