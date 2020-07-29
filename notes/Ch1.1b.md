@@ -5,7 +5,7 @@
 
 # Section 1.1 continued
 
-## Set builder notation (predicates)
+## Set builder notation
 
 Set builder notation is a way to construct sets out of other sets.
 
@@ -34,7 +34,7 @@ $$
 and it captures all values of the expression that satisfy the rule.
 
 
-## Intervals  $\mathbb{R}$
+## Intervals of  $\mathbb{R}$
 Intervals are examples of sets given by set builder notation.
 
 - $(a,b) = \{x\in\R : x>a \mathrm{\ and\ } x<b\}$ "open"
