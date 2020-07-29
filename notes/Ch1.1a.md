@@ -2,7 +2,7 @@
 title: Chapter 1 Section 1
 ---
 
-# Section 1.1
+
 \newcommand{\Z}{\mathbb{Z}}
 \newcommand{\N}{\mathbb{N}}
 \newcommand{\R}{\mathbb{R}}
