@@ -53,18 +53,6 @@ $$
 
 We take for granted addition, multiplication, commutative, associative, laws etc.
 
-## Set builder notation (predicates)
-
-Set builder notation picks elements out of another set.  
-
-Example:
-$$
-\{x\in \Z : x\ge 0\}
-$$
-
-means "pick from the set $\Z$ those elements that satisfy the condition $x\ge 0$".  
-
-The condition is called a *predicate*. 
 
 
 ## Other sets
@@ -93,40 +81,6 @@ idea for granted.  We also take for granted that a set like $\mathbb{Z}$ has inf
 - The real numbers is the set of all numbers with possibly infinite decimal expansions (positive or negative).
 A proper definition is hard to give and is usually done in analysis.  We will work with the real numbers
 informally as we did in Calculus.
-
-## Intervals  $\mathbb{R}$
-See page 7 of the text.
-
-- $(a,b) = \{x\in\R : x>a \mathrm{\ and\ } x<b\}$ "open"
-- $[a,b) = \{x\in\R: x\ge a \mathrm{\ and\ } x<b\}$ "half open"
-- $(a,b] = \{x\in\R: x>a \mathrm{\ and\ } x\le b\}$ "half open"
-- $[a,b] = \{x\in\R: x\ge a \mathrm{\ and\ } x\le b\}$ "closed"
-- $[a,\infty) = \{x\in\R: x\ge a\}$ "infinite"
-- $(a,\infty) = \{x\in\R: x>a\}$ "infinite"
-- $(\infty,a) = \{x\in\R: x< a\}$ "infinite"
-- $(\infty,a] = \{x\in\R: x\le a\}$ "infinite"
-
-## Closer look: Example 1.1
-
-**Claim:** $\{n^2: n\in\Z\} = \{0,1,4,9,16,25,\ldots\}$
-
-- Say this in words
-- What about $\{n^2:n\in\N\}$?
-- What about $\{n^2:n\in\Q\}$?
-
-## Closer look: Example 1.2
-
-**Problem:** Describe the set $A=\{7a+3b:a,b\in\Z\}$.
-
-## Closer look: Problem 1.1.7
-
-**Problem:** Describe the set $\{x\in \R: x^2+5x=-6\}$.
-
-- The back of the book gives the answer $\{-2,-3\}$.  Why is this the answer?
-
-- What about if we replace $\R$ with $\Q$?
-
-- What about if we replace $\R$ with $\N$?
 
 <!--
 %- cardinality
