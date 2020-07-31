@@ -5,6 +5,9 @@ auto/
 *.out
 *.log
 *.aux
+*.nav
+*.snm
+*.toc
 *~
 \#*
 video
