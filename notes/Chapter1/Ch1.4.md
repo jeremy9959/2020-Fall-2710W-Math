@@ -38,7 +38,7 @@ $\P(\{a\})=\{\emptyset,\{a\}\}$
  $\P(1)$ makes no sense because $1$ is not a set.
 
 ## Example -- some common mistakes 2
-$\P(\{1,\{1,2\}\}=\{\emptyset,1,\{\{1,2\}\},\{1,\{1,2\}\}\}$.  Notice
+$\P(\{1,\{1,2\}\}=\{\emptyset,\{1\},\{\{1,2\}\},\{1,\{1,2\}\}\}$.  Notice
 that $\{1,2\}$ is not an element of $\P(\{1,\{1,2\}\})$ but $\{\{1,2\}\}$
 is.
 
