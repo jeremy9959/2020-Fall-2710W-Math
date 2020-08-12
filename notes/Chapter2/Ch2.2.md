@@ -16,6 +16,7 @@ $P$ **or** $Q$ is a new statement that is True if **either** $P$ or $Q$, or **bo
 
 $P$ and $Q$ can be written $P\wedge Q$ (compare with set intersection).  
 
+
 ## OR
 
 $P$ or $Q$ can be written $P\vee Q$ (compare with set union)
