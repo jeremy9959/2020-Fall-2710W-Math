@@ -16,10 +16,18 @@ office: [Webex](https://uconn-cmr.webex.com/meet/jet08013)<br>
 Office Hours (online): Mondays and Wednesdays 2:00-3:30 p.m. or other mutually convenient
 times.<br>
 <br>
-**Course page under development - stay tuned**
-<!--
-Read the [syllabus](https://learn.uconn.edu/bbcswebdav/courses/M1198-MATH-2710-001.002/syllabus.html)!
--->
+This is a hybrid synchronous/asynchronous online course.   The materials for this course consist of:
+
+- The textbook, Richard Hammack's [Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/)
+- A set of video "mini-lectures" (not yet available, but maybe later)
+- A set of course notes/slides.
+
+The annotated slides (so far) are available here.
+
+- [Chapter 1](./notes/Chapter1)
+- [Chapter 2](./notes/Chapter2)
+
+
 
 
 
