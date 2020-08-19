@@ -27,6 +27,7 @@ This will be true if every one is true, meaning one of the following is true:
 
 It will be false if there is at least one $x$ that is divisible by $6$ but not even.
 
+
 ## Conventional interpretation
 
 It is a common convention to read a statement like
