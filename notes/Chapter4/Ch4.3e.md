@@ -5,22 +5,27 @@
 
 ![lcm proposition](../../png/LCMProp.png)
 
-## The hidden part
+## The hidden part - check the definitions
 
-First, remember the definition.
 
 **Definition:** Let $a$ and $b$ be positive integers.  Then the least common multiple $\mathrm{lcm}(a,b)$
 is the smallest positive integer $m$ such that $a|m$ and $b|m$.
 
-## The hidden part continued
-
-"$x$ is the smallest positive integer such that $a|m$ and $b|m$" is equivalent to "If $x$ is a positive integer so that $a|x$ and $b|x$, then $x\ge\lcm(a,b)$."
-
 ## The hidden part II
 
-Second, make sure the claim is clear, for example by doing examples.
+Second, make sure the claim is clear. Look at some examples.
 
-## The hidden part III
+## The hidden part continued III - interpret the definition
+
+Three ways of saying the same thing:
+
+- $x$ is the smallest positive integer such that $a|m$ and $b|m$ 
+
+- If $x$ is a positive integer so that $a|x$ and $b|x$, then $x\ge\lcm(a,b)$.
+
+- If $x$ is a positive integer so that $a|x$ and $b|x$, then $\lcm(a,b)\le x$.
+
+## The hidden part IV
 
 Read the proof to understand it's structure, without worrying about the details.
 
