@@ -12,7 +12,9 @@ First, remember the definition.
 **Definition:** Let $a$ and $b$ be positive integers.  Then the least common multiple $\mathrm{lcm}(a,b)$
 is the smallest positive integer $m$ such that $a|m$ and $b|m$.
 
-If $x$ is a positive integer so that $a|x$ and $b|x$, then $x\ge\lcm(a,b)$.
+## The hidden part continued
+
+"$x$ is the smallest positive integer such that $a|m$ and $b|m$" is equivalent to "If $x$ is a positive integer so that $a|x$ and $b|x$, then $x\ge\lcm(a,b)$."
 
 ## The hidden part II
 
