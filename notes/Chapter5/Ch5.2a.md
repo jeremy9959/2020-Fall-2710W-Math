@@ -27,19 +27,3 @@ Arithmetic Progressions.
 What is $\{x: x\equiv a\pmod{n}\}$?
 
 
-## Congruence arithmetic.
-
-
-**Proposition:** Given integers $a$, $b$, $c$, and a natural number $n$,  if$a\equiv b\pmod{n}$ 
-then
-
-- $a+c\equiv b+c\pmod{n}$
-\vfill
-- $ac\equiv bc\pmod{n}$
-\vfill
-- $a^r\equiv b^r\pmod{n}$ for any natural number $r$.
-
-
-## Casting out nines
-
-
