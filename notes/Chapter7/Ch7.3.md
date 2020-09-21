@@ -23,9 +23,9 @@ For all $n\times n$ matrices $A$ with real entries, $A$ is invertible if and onl
 
 Some theorems assert the existence of an object with particular properties. 
 
-Proof of an existence theorem requires you to present an example.
+Proof of an existence theorem generally requires you to present an example.
 
-**Definition:** A Pythagorean Triple is an element $(a,b,c)$ of $\mathbb{Z}^3$ such that
+**Definition:** A Pythagorean Triple is an element $(a,b,c)$ of $\mathbb{N}^3$ such that
 $$
 c^2=a^2+b^2.
 $$
@@ -36,7 +36,7 @@ $$
 
 ## Existence claims can be hard to establish
 
-**Theorem:** There exist integers $A$, $B$, and $C$ so that
+**Theorem:** There exist natural numbers $A$, $B$, and $C$ so that
 
 $$
 A/(B+C)+B/(A+C)+C/(A+B)=4.
@@ -53,3 +53,8 @@ Then these values satisfy the given equation.  (Check this if you can!)
 
 - verification requires work
 - no clue given as to how to find this; and, in fact, it's hard.
+
+## Millenium Problems: Navier-Stokes
+
+One of the million dollar millenium problems is an existence claim about solutions to 
+the Navier Stokes equation for fluid flow. 
