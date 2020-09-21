@@ -11,21 +11,17 @@ $$
 Comments:  
 
 - logical structure of this statement is 
-"For all $a$ and $b$ in $\mathbb{N}$ there exists $k$ and $l$ in $\mathbb{Z}$ such that $\gcd(a,b)=ak+bl$.
+"For all $a$ and $b$ in $\mathbb{N}$ there exists $k$ and $l$ in $\mathbb{Z}$ such that $\gcd(a,b)=ak+bl$."
 - Note that $k$ and $l$ will depend on $a$ and $b$.
 
+## Hidden part
 
-## The hidden part
+## Hidden part continued
 
+## A Lemma
 
-
-## Two key ideas
-
-**Lemma:** Suppose that $A$ is a set of integers, and $d$ is the smallest positive element of $A$.
-Then if $r\in A$, and $r<d$, we must have $r\le 0$. 
-
-**Lemma:** If $x$ is a common divisor of $a$ and $b$, and, for all common divisors $g$ of $a$ and $b$
-we have $x\ge g$, then $x$ is the *greatest* common divisor of $a$ and $b$.
+**Lemma:** Let $a$ and $b$ be natural numbers.  The set $A=\{ax+by:x,y\in\mathbb{Z}\}$ is *closed*
+under addition, meaning the sum (and difference) of any two elements of $A$ is an element of $A$.
 
 ## Proof from the book.
 
@@ -41,20 +37,28 @@ so that $d=ax+by$.  Call one set of these values $k$ and $l$, so that $d=ak+bl$.
 **Step 1.** $d$ is a common divisor of $a$ and $b$.  
 
 **Proof:** Find $q$ and $r$ so that $a=qd+r$ and $0\le r<d$. Then 
-$$r=a-qd=a-q(ak+bl) = (1-qk)a+b(-ql).$$  
-Therefore $r\in A$.  Since $0\le r<d$, and $d$ is the *smallest* positive element of $A$, we must have $r=0$.
-Here we have used the lemma above.
+$qd$ is in $A$ and $a$ is in $A$, so $r=a-qd$ is in $A$, since $A$ is closed under addition.
+
+Since $0\le r<d$, and $d$ is the *smallest* positive element of $A$, we must have $r=0$.
+
+
+
 Therefore $a=qd$ and so $d$ is a divisor of $a$.  The same argument works for $b$.
 
 ## proof, cont'd
 
 **Step 2:** $d=ax+kl$ is the *greatest* common divisor of $a$ and $b$.  
 
-**Proof:** Let $g\in\mathbb{N}$ be any common divisor of $a$ and $b$.  Then $a=ug$ and $b=vg$ for natural numbers
-$u$ and $v$.  Therefore
+**Proof:** Let $g\in\mathbb{N}$ be any common divisor of $a$ and $b$. 
+
+Then $a=ug$ and $b=vg$ for natural numbers $u$ and $v$.  
+
+Therefore
 $$
 d = ugk+vgl = g(uk+vl).
 $$
+
+
 As a result, $g$ is a divisor of $d$ and so $d\ge g$.  Therefore $d$ is the greatest common divisor.
 
 ## Notes
