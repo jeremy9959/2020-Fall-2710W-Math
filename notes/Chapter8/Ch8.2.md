@@ -7,7 +7,7 @@
 Basic principle:  $A\subset B$ is equivalent to the statement $x\in A\implies x\in B$.   One can prove
 this both directly and as $x\not\in B\implies x\not\in A$.
 
-**Proposition:** Let $A=\{2x+4 : x\in\mathbb{Z}\}$.  Let $B=\{ 2x: x\in \mathbb{Z}\}$.  Then
+**Proposition:** Let $A=\{4x+2 : x\in\mathbb{Z}\}$.  Let $B=\{ 2x: x\in \mathbb{Z}\}$.  Then
 $A\subset B$.
 
 
