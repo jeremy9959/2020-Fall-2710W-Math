@@ -76,6 +76,40 @@ you can prove \(P(n+1)\) true, then all \(P(n)\) are true.
 
 \vfill\eject
 
+\hypertarget{example.-see-page-187.}{%
+\subsection{Example. (See page 187).}\label{example.-see-page-187.}}
+
+\textbf{Proposition:} Any score of \(12\) or higher is possible in a
+football game where the scores are either field goals (\(3\) points) or
+touchdowns (\(7\) points). Notice that \(11\) is not a possible score,
+so \(12\) is the smallest score such that all larger scores are
+possible.
+
+Example: \(12\) is possible as \(4\times 3\) field goals; \(13\) is
+possible as \(2\times 3\) field goals plus a \(7\) point touchdown;
+\(14\) is possible as two touchdowns; and so on.
+
+\textbf{Proof:} Suppose that \(P(n)\) is the statement that `\(n\) is a
+possible score.' We know that \(P(12)\), \(P(13)\), and \(P(14)\) are
+true.
+
+Our \emph{strong induction} hypothesis is this:
+
+Suppose that \(P(12), P(13), P(14),\ldots, P(n)\) are all true and
+\(n\ge 15\). We want to show that this implies that \(P(n+1)\) is true.
+
+Since all \(P(n)\) up to \(n\) are true, \(P(n-2)\) is true by the
+inductive hypothesis, and so \(n-2\) is a possible score. But then
+\(n+1=(n-2)+3\) is also possible, because it's obtained by however you
+get \(n-2\), plus a field goal.
+
+This establishes the proof by strong induction.
+
+Notice that the key step was that we had to ``go back'' more than one
+step to find what we needed.
+
+\vfill\eject
+
 \hypertarget{strong-induction-contd}{%
 \subsection{Strong induction cont'd}\label{strong-induction-contd}}
 
@@ -109,5 +143,7 @@ apply regular induction to the set of statements \(S(n)\).
 \item
   So all \(P(n)\) are also true.
 \end{itemize}
+
+\vfill\eject
 
 \end{document}
