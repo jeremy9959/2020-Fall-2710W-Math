@@ -6,3 +6,5 @@
 %.pdf : %.md
 	pandoc -s --slide-level=2 --variable classoption=t --mathjax -t beamer $< -o $@
 
+%.tex : %.md
+	pandoc -s --mathjax $< -o $@
