@@ -1,0 +1,121 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{permutations}{%
+\section{Permutations}\label{permutations}}
+
+\hypertarget{factorials}{%
+\subsection{Factorials}\label{factorials}}
+
+\textbf{Definition 1:} For \(n\in\mathbb{Z}\), \(n \ge 0\), define
+\(0!=1\) and \(n!=(1)(2)\cdots(n-1)(n)\). Alternatively, define \(n!\)
+for non-negative integers \(n\) by setting \(0!=1\) and \(n!=n(n-1)!\).
+
+\textbf{Proposition:} The number of different lists of length \(n\) made
+up of elements from the set \(\{1,2,\ldots, n\}\), \emph{without
+repetitions}, is \(n!\).
+
+\vfill\eject
+
+\hypertarget{permutations-1}{%
+\subsection{Permutations}\label{permutations-1}}
+
+\textbf{Definition:} Let \(X\) be a set. A permutation of \(X\) is a
+list of length \(|X|\) of the elements of \(X\), without repetition.
+(\textbf{Note:} There are other definitions of permutations in other
+contexts, all related to this one).
+
+\textbf{Examples:}
+
+\vfill\eject
+
+\hypertarget{section}{%
+\subsection{}\label{section}}
+
+\textbf{Definition:} Let \(X\) be a set. A \(k\)-permutation of \(X\) is
+a list of \(k\) elements of \(X\) without repetition. \(P(n,k)\) is the
+number of \(k\) permutations of a set with \(n\) elements.
+
+\textbf{Proposition:} The number \(P(n,k)\) of \(k\)-permutations of a
+set with \(n\) elements is \(n(n-1)\cdots (n-k+1)\) or, equivalently \[
+P(n,k) = \frac{n!}{(n-k)!}
+\]
+
+\textbf{Proof:}
+
+\vfill\eject
+
+\hypertarget{examples-of-k-permutations}{%
+\subsection{\texorpdfstring{Examples of
+\(k\)-permutations}{Examples of k-permutations}}\label{examples-of-k-permutations}}
+
+(Problem 7, page 84) How many \(9\)-digit numbers can be made from the
+digits \(1,2,3,4,5,6,7,8,9\) if repetition is not allowed and all the
+odd digits occur first, followed by all the even digits.
+
+\vfill\eject
+
+\hypertarget{section-1}{%
+\subsection{}\label{section-1}}
+
+(Problem 15, page 84) In a club of 15 people, there is a president,
+vice-president, secretary, and treasurer. In how many different ways can
+this be done?
+
+\vfill\eject
+
+\hypertarget{section-2}{%
+\subsection{}\label{section-2}}
+
+\end{document}

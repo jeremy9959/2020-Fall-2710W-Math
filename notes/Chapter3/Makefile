@@ -8,3 +8,5 @@
 
 %.tex : %.md
 	pandoc -s --mathjax $< -o $@
+	pdflatex $@
+	pdflatex $@
