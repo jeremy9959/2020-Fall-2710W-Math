@@ -38,6 +38,13 @@ is called the *codomain* of $f$.
 **Definition:** Let $f:A\to B$ be a function.  The *range* of $f$ is the subset 
 $$\mathrm{range}(f)=\{b\in B: \exists a\in A, f(a)=b\}$$
 
+**Definition:** Let $f:A\to B$ and $g:C\to D$ be two functions.  Then $f$ and $g$ are
+equal if they are equal as sets $f\subset A\times B$ and $g\subset C\times D$.  
+
+**Proposition:** If two functions are equal, they have the same domain and range (but not necessarily
+the same codomain).  
+
+
 **Definition:** Let $f:A\to B$ be a function.  $f$ is *injective* if, for all $a,a'\in A$,
 if $a\not=a'$ then $f(a)\not=f(a')$.  Equivalently (by the contrapositive), $f$ is injective
 if for all $a,a'\in A$, if $f(a)=f(a')$, then $a=a'$. 
