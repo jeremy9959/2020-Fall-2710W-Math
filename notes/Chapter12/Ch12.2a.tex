@@ -1,0 +1,86 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{examples-on-injective-surjective-and-bijective-functions}{%
+\section{Examples on Injective, Surjective, and Bijective
+functions}\label{examples-on-injective-surjective-and-bijective-functions}}
+
+\hypertarget{example-12.4.}{%
+\subsection{Example 12.4.}\label{example-12.4.}}
+
+\textbf{Proposition:} The function \(f:\mathbb{R}-\{0\}\to\mathbb{R}\)
+defined by the formula \(f(x)=\frac{1}{x}+1\) is injective but not
+surjective.
+
+\vfill\eject
+
+\hypertarget{example-12.5.}{%
+\subsection{Example 12.5.}\label{example-12.5.}}
+
+\textbf{Proposition:} The function
+\(f:\mathbb{R}-\{0\}\to\mathbb{R}-\{1\}\) is injective and surjective
+(hence bijective).
+
+\vfill\eject
+
+\hypertarget{example-12.6}{%
+\subsection{Example 12.6}\label{example-12.6}}
+
+\textbf{Proposition:} The function
+\(g:\mathbb{Z}\times\mathbb{Z}\to\mathbb{Z}\times\mathbb{Z}\) defined by
+the formula \(g(m,n) = (m+n,m+2n)\) is both injective and surjective.
+
+\vfill\eject
+
+\end{document}
