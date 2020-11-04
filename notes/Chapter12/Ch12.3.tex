@@ -1,0 +1,132 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{the-pigeonhole-principle}{%
+\subsection{The pigeonhole principle}\label{the-pigeonhole-principle}}
+
+\textbf{The Pigeonhole Principle:} Suppose that \(M>N\) and you put
+\(M\) balls in \(N\) boxes. Then at least one box has more than one
+ball.
+
+For our purposes we will treat this as an axiom, since:
+
+\begin{itemize}
+\tightlist
+\item
+  it seems obvious, and
+\item
+  to prove it you have to be very careful about what axioms you are
+  relying on.
+\end{itemize}
+
+The contrapositive version: Suppose that you put \(M\) balls in \(N\)
+boxes, and no box contains more than one ball. Then \(M<N\).
+
+\vfill\eject
+
+\hypertarget{the-pigeonhole-principle-and-functions}{%
+\subsection{The pigeonhole principle and
+functions}\label{the-pigeonhole-principle-and-functions}}
+
+Suppose we have a function \(F:A\to B\) where \(A\) and \(B\) are finite
+sets.
+
+\textbf{Proposition:} If \(|A|>|B|\) then \(F\) is not injective.
+
+\textbf{Proof:} Think of the elements of \(A\) as balls and the elements
+of \(B\) as boxes. If \(F(a)=b\), then you put ball \(a\) in box \(b\).
+If \(F\) is injective, then by the definition of injectivity, different
+balls go in different boxes. Thus no box contains more than one ball.
+This implies there are at least as many boxes as balls, so
+\(|B|\ge |A|\). This is a contradiction of our assumption that
+\(|A|>|B|\), so \(F\) is not injective.
+
+\vfill\eject
+
+\hypertarget{the-pigeonhole-principle-and-functions-2}{%
+\subsection{The pigeonhole principle and functions
+2}\label{the-pigeonhole-principle-and-functions-2}}
+
+Suppose we have a function \(F:A\to B\) where \(A\) and \(B\) are finite
+sets.
+
+\textbf{Proposition:} If \(|A|<|B|\), then \(F\) is not surjective.
+
+\textbf{Proof:} Again think of elements of \(A\) as balls and elements
+of \(B\) as boxes, with \(F(a)=b\) meaning you put ball \(a\) in box
+\(b\). The pigeonhole principle says that at least one box is empty; in
+other words, there is some \(b\) such that there is no \(a\) with
+\(F(a)=b\). Thus \(F\) is not surjective.
+
+\vfill\eject
+
+\hypertarget{some-example-applications}{%
+\subsection{Some example applications}\label{some-example-applications}}
+
+Example from page 234.
+
+\textbf{Proposition:} Suppose \(A\) is a set of any \(10\) integers
+between \(1\) and \(100\). Then there are two subsets \(X\subseteq A\)
+and \(Y\subseteq A\) such that the sum of the elements of \(X\) is the
+same as the sum of the elements of \(Y\).
+
+\vfill\eject
+
+\hypertarget{problem-12.3.5}{%
+\subsection{Problem 12.3.5}\label{problem-12.3.5}}
+
+\textbf{Proposition:} Any set of seven distinct natural numbers contains
+a pair of numbers whose sum or difference is divisible by \(10\).
+
+\end{document}
