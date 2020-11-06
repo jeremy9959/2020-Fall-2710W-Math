@@ -20,14 +20,6 @@ $$
 
 \vfill\eject
 
-## Examples
-
-(Example 3.6) How many even 5 digit numbers are there for which:
-
-- no digit is zero
-- the digit $6$ appears exactly once.
-
-\vfill\eject
 ## Problem 3
 
 (Problem 3 from section 3.3) Five cards are dealt from a 52-card deck and lined up in a row.
