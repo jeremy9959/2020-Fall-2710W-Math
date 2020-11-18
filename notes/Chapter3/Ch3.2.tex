@@ -1,0 +1,113 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{additionsubtraction-principle}{%
+\section{Addition/Subtraction
+Principle}\label{additionsubtraction-principle}}
+
+\hypertarget{addition-principle-and-disjoint-unions}{%
+\subsection{Addition Principle and Disjoint
+Unions}\label{addition-principle-and-disjoint-unions}}
+
+\textbf{Definition:} Two sets are said to be \emph{disjoint} if
+\(X\cap Y=\emptyset\). Similarly, a collection \(X_1,\ldots, X_n\) of
+sets are said to be disjoint if any pair of them is disjoint.
+
+Note that one can have 3 sets \(A\), \(B\), and \(C\) with
+\(A\cap B\cap C=\emptyset\) but \(A\), \(B\), and \(C\) are not
+disjoint.
+
+\textbf{Proposition:} Let \(X_1,X_2,\ldots, X_n\) be a disjoint
+collection of finite sets. Then \[
+|X_1\cup X_2\cup\cdots\cup X_n|=\sum_{i=1}^{n} |X_{i}|.
+\] \vfill
+
+\textbf{Proposition:} Suppose that \(U\subset X\). Then
+\(|X-U|=|X|-|U|\)
+
+\vfill\eject
+
+\hypertarget{examples}{%
+\subsection{Examples}\label{examples}}
+
+(Example 3.6) How many even 5 digit numbers are there for which:
+
+\begin{itemize}
+\tightlist
+\item
+  no digit is zero
+\item
+  the digit \(6\) appears exactly once.
+\end{itemize}
+
+\vfill\eject
+
+\hypertarget{problem-3}{%
+\subsection{Problem 3}\label{problem-3}}
+
+(Problem 3 from section 3.3) Five cards are dealt from a 52-card deck
+and lined up in a row. How many such lineups are there in which all five
+cards are the same color (i.e.~black or red)?
+
+\vfill\eject
+
+\hypertarget{problem-9}{%
+\subsection{Problem 9}\label{problem-9}}
+
+(Problem 9 from Section 3.3) Consider ``words'' of length 6 made from
+the letters \(A,B,C,D,E,F,G,H\). How many such words are possible if
+each letter can occur at most one time, and the word must contain two
+consecutive vowels?
+
+\end{document}
