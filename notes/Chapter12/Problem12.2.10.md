@@ -1,4 +1,4 @@
-## Problem 12.6.10
+## Problem 12.2.10
 
 **Problem:** Prove that the function $f:\mathbb{R}-\{1\}:\mathbb{R}-\{1\}$ defined by
 $$
