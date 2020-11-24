@@ -39,6 +39,7 @@ The annotated slides and some other notes are available here.
 - [Ch1.6](./notes/Chapter1/Ch1.6.given.pdf)
 - [Ch1.7](./notes/Chapter1/Ch1.7.given.pdf)
 - [Ch1.8](./notes/Chapter1/Ch1.8.given.pdf)
+- [Ch1.10](./notes/Chapter1/Ch1.10.given.pdf)
 
 **Chapter 2: Logic**
 
