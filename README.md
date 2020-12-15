@@ -19,13 +19,15 @@ times.<br>
 This is a hybrid synchronous/asynchronous online course.   The materials for this course consist of:
 
 - The textbook, Richard Hammack's [Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/)
-- A set of video "mini-lectures" (not yet available, but maybe later)
+- A set of video "mini-lectures" (available in part)
 - A set of course notes/slides (available below as they are developed)
 - Periodic assessments and writing prompts (not yet available here, but maybe later)
 
 The annotated slides and some other notes are available here.
 
 **Chapter 1: Sets**
+
+[The video lectures for Chapter 1 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RCUbHjvzDoHM0Q1SQOjHTnL)
 
 - [Ch1.1a](./notes/Chapter1/Ch1.1a.given.pdf)
 - [Ch1.1b](./notes/Chapter1/Ch1.1b.given.pdf)
