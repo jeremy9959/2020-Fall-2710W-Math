@@ -63,6 +63,8 @@ The annotated slides and some other notes are available here.
 
 **Chapter 3: Counting**
 
+[The video lectures for Chapter 3 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RD_cfkhDhjpPR4GIypLcR8k)
+
 - [Ch3.1a](./notes/Chapter3/Ch3.1a.given.pdf)
 - [Ch3.1b](./notes/Chapter3/Ch3.1b.given.pdf)
 - [Ch3.1c](./notes/Chapter3/Ch3.1c.given.pdf)
