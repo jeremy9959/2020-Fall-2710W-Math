@@ -64,6 +64,8 @@ The annotated slides and some other notes are available here.
 
 **Chapter 4: Direct Proof**
 
+[The video lectures for Chapter 4 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RCnpQ1M9ujwlwxQgZ00ZFd0)
+
 - [Ch4.1](./notes/Chapter4/Ch4.1.given.pdf)
 - [Ch4.2](./notes/Chapter4/Ch4.2.given.pdf)
 - [Ch4.3a](./notes/Chapter4/Ch4.3a.given.pdf)
