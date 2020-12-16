@@ -61,18 +61,6 @@ The annotated slides and some other notes are available here.
 - [Ch2.10](./notes/Chapter2/Ch2.10.given.pdf)
 - [Ch2.11](./notes/Chapter2/Ch2.11.given.pdf)
 
-**Chapter 3: Counting**
-
-[The video lectures for Chapter 3 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RD_cfkhDhjpPR4GIypLcR8k)
-
-- [Ch3.1a](./notes/Chapter3/Ch3.1a.given.pdf)
-- [Ch3.1b](./notes/Chapter3/Ch3.1b.given.pdf)
-- [Ch3.1c](./notes/Chapter3/Ch3.1c.given.pdf)
-- [Ch3.2.Example5Redo](./notes/Chapter3/Ch3.2.Example5Redo.given.pdf)
-- [Ch3.2](./notes/Chapter3/Ch3.2.given.pdf)
-- [Ch3.3](./notes/Chapter3/Ch3.3.given.pdf)
-- [Ch3.4](./notes/Chapter3/Ch3.4.given.pdf)
-- [Ch3.5](./notes/Chapter3/Ch3.5.given.pdf)
 
 **Chapter 4: Direct Proof**
 
@@ -130,6 +118,19 @@ The annotated slides and some other notes are available here.
 - [nthFibonacci](./notes/Chapter10/nthFibonacci.given.pdf)
 - [RedBluePtsProblem](./notes/Chapter10/RedBluePtsProblem.given.pdf)
 
+**Chapter 3: Counting**
+
+[The video lectures for Chapter 3 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RD_cfkhDhjpPR4GIypLcR8k)
+
+- [Ch3.1a](./notes/Chapter3/Ch3.1a.given.pdf)
+- [Ch3.1b](./notes/Chapter3/Ch3.1b.given.pdf)
+- [Ch3.1c](./notes/Chapter3/Ch3.1c.given.pdf)
+- [Ch3.2.Example5Redo](./notes/Chapter3/Ch3.2.Example5Redo.given.pdf)
+- [Ch3.2](./notes/Chapter3/Ch3.2.given.pdf)
+- [Ch3.3](./notes/Chapter3/Ch3.3.given.pdf)
+- [Ch3.4](./notes/Chapter3/Ch3.4.given.pdf)
+- [Ch3.5](./notes/Chapter3/Ch3.5.given.pdf)
+
 **Chapter 11: Relations**
 
 - [Ch11.1](./notes/Chapter11/Ch11.1.given.pdf)
@@ -152,3 +153,15 @@ The annotated slides and some other notes are available here.
 - [Ch12.5b](./notes/Chapter12/Ch12.5b.given.pdf)
 - [Ch12.6](./notes/Chapter12/Ch12.6.given.pdf)
 - [Problem12.2.10](./notes/Chapter12/Problem12.2.10.given.pdf)
+
+
+Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+[![CC BY 4.0][cc-by-image]][cc-by]
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
