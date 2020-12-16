@@ -45,6 +45,8 @@ The annotated slides and some other notes are available here.
 
 **Chapter 2: Logic**
 
+[The video lectures for Chapter 2 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RAhHc0z0v1MWpeXwQhGDQ9y)
+
 - [Ch2.1](./notes/Chapter2/Ch2.1.given.pdf)
 - [Ch2.2](./notes/Chapter2/Ch2.2.given.pdf)
 - [Ch2.3a](./notes/Chapter2/Ch2.3a.given.pdf)
