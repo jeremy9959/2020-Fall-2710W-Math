@@ -77,16 +77,22 @@ The annotated slides and some other notes are available here.
 
 **Chapter 5: Contrapositive Proof**
 
+[The video lectures for Chapter 5 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RBqYJULos-cEnWIFVspvpyg)
+
 - [Ch5.1](./notes/Chapter5/Ch5.1.given.pdf)
 - [Ch5.2a](./notes/Chapter5/Ch5.2a.given.pdf)
 - [Ch5.2b](./notes/Chapter5/Ch5.2b.given.pdf)
 
 **Chapter 6: Contradiction**
 
+[The video lectures for Chapter 6 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RCv8fYNoUW_2KAHlM0yarvt)
+
 - [Ch6.1a](./notes/Chapter6/Ch6.1a.given.pdf)
 - [Ch6.1b](./notes/Chapter6/Ch6.1b.given.pdf)
 
 **Chapter 7: Non-Conditional Statements**
+
+[The video lectures for Chapter 7 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RCKUcM9OhX6lqjLrpczB5Hq)
 
 - [Ch7.1](./notes/Chapter7/Ch7.1.given.pdf)
 - [Ch7.3a](./notes/Chapter7/Ch7.3a.given.pdf)
@@ -97,17 +103,23 @@ The annotated slides and some other notes are available here.
 
 **Chapter 8: Set Proofs**
 
+[The video lectures for Chapter 8 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RA1KzyJ7WwH61cFeBEWr8lk)
+
 - [Ch8.1](./notes/Chapter8/Ch8.1.given.pdf)
 - [Ch8.2](./notes/Chapter8/Ch8.2.given.pdf)
 - [Ch8.3](./notes/Chapter8/Ch8.3.given.pdf)
 
 **Chapter 9: Disproofs**
 
+[The video lectures for Chapter 9 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RCVkEoDbXTW_2qttHm4n2zE)
+
 - [Ch9.1a](./notes/Chapter9/Ch9.1a.given.pdf)
 - [Ch9.1bc](./notes/Chapter9/Ch9.1bc.given.pdf)
 - [Ch9.2-3](./notes/Chapter9/Ch9.2-3.given.pdf)
 
 **Chapter 10: Induction**
+
+[The video lectures for Chapter 10 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RCVkEoDbXTW_2qttHm4n2zE)
 
 - [Ch10.1a](./notes/Chapter10/Ch10.1a.given.pdf)
 - [Ch10.1b](./notes/Chapter10/Ch10.1b.given.pdf)
@@ -135,6 +147,8 @@ The annotated slides and some other notes are available here.
 
 **Chapter 11: Relations**
 
+[The video lectures for Chapter 11 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RArorcN4Xn1iiEa8ISRgVRf)
+
 - [Ch11.1](./notes/Chapter11/Ch11.1.given.pdf)
 - [Ch11.2](./notes/Chapter11/Ch11.2.given.pdf)
 - [Ch11.3a](./notes/Chapter11/Ch11.3a.given.pdf)
@@ -144,6 +158,8 @@ The annotated slides and some other notes are available here.
 - [Ch11.6](./notes/Chapter11/Ch11.6.given.pdf)
 
 **Chapter 12: Functions**
+
+[The video lectures for Chapter 12 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RAIuGbcGdRQ4fwvBJXJk4GY)
 
 - [Ch12.1a](./notes/Chapter12/Ch12.1a.given.pdf)
 - [Ch12.1b](./notes/Chapter12/Ch12.1b.given.pdf)
