@@ -120,7 +120,7 @@ This is a hybrid synchronous/asynchronous online course.   The materials for thi
 
 **Chapter 10: Induction**
 
-[The video lectures for Chapter 10 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RCVkEoDbXTW_2qttHm4n2zE)
+[The video lectures for Chapter 10 are available here.](https://www.youtube.com/playlist?list=PLHmPFY5Rz0RDe8rBqVo1XFJzQVi-7KhkR)
 
 - [Ch10.1a](./notes/Chapter10/Ch10.1a.given.pdf)
 - [Ch10.1b](./notes/Chapter10/Ch10.1b.given.pdf)
