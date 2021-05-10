@@ -2,7 +2,6 @@
 
 
 **Math 2710W: Transition to Higher Mathematics** <br>
-**Spring Semester 2020** <br>
 **University of Connecticut** <br>
 <br>
 
@@ -12,18 +11,14 @@
 
 Professor [Jeremy Teitelbaum](jeremy.teitelbaum@uconn.edu) <br>
 homepage: [https://teitelbaum.math.uconn.edu](https://teitelbaum.math.uconn.edu) and [https://jeremy9959.net](https://jeremy9959.net)<br>
-office: [Webex](https://uconn-cmr.webex.com/meet/jet08013)<br>
-Office Hours (online): Mondays and Wednesdays 2:00-3:30 p.m. or other mutually convenient
-times.<br>
-<br>
+
 This is a hybrid synchronous/asynchronous online course.   The materials for this course consist of:
 
 - The textbook, Richard Hammack's [Book of Proof](https://www.people.vcu.edu/~rhammack/BookOfProof/)
-- A set of video "mini-lectures" (available in part)
+- A set of video "mini-lectures" (linked to below)
 - A set of course notes/slides (available below as they are developed)
-- Periodic assessments and writing prompts (not yet available here, but maybe later)
+- Periodic assessments and writing prompts (available to UConn students through the HuskyCT LMS)
 
-The annotated slides and some other notes are available here.
 
 **Chapter 1: Sets**
 
