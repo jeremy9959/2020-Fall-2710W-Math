@@ -59,6 +59,8 @@ This is a hybrid synchronous/asynchronous online course.   The materials for thi
 
 **Chapter 4: Direct Proof**
 
+[The video lectures for chapter 4 are available here](https://youtube.com/playlist?list=PLHmPFY5Rz0RCnpQ1M9ujwlwxQgZ00ZFd0)
+
 - [Theorems (Ch4.1)](./notes/Chapter4/Ch4.1.given.pdf)
 - [Definitions (Ch4.2)](./notes/Chapter4/Ch4.2.given.pdf)
 - [Direct Proof (Ch4.3a)](./notes/Chapter4/Ch4.3a.given.pdf)
@@ -70,16 +72,22 @@ This is a hybrid synchronous/asynchronous online course.   The materials for thi
 
 **Chapter 5: Contrapositive Proof**
 
+[The video lectures for Chapter 5 are available here](https://youtube.com/playlist?list=PLHmPFY5Rz0RBqYJULos-cEnWIFVspvpyg).
+
 - [Contrapositive Proof (Ch5.1)](./notes/Chapter5/Ch5.1.given.pdf)
 - [Congruence of Integers (Ch5.2a)](./notes/Chapter5/Ch5.2a.given.pdf)
 - [Congruence (Ch5.2b)](./notes/Chapter5/Ch5.2b.given.pdf)
 
 **Chapter 6: Contradiction**
 
+[The video lectures for Chapter 6 are available here](https://youtube.com/playlist?list=PLHmPFY5Rz0RCv8fYNoUW_2KAHlM0yarvt).
+
 - [Proof by Contradiction (Ch6.1a)](./notes/Chapter6/Ch6.1a.given.pdf)
 - [Proof by Contradiction (Ch6.1b)](./notes/Chapter6/Ch6.1b.given.pdf)
 
 **Chapter 7: Non-Conditional Statements**
+
+[The video lectures for Chapter 7 are available here](https://youtube.com/playlist?list=PLHmPFY5Rz0RCKUcM9OhX6lqjLrpczB5Hq)
 
 - [If and only if proofs (Ch7.1)](./notes/Chapter7/Ch7.1.given.pdf)
 - [Existence, and Existence and Uniqueness Proofs (Ch7.3a)](./notes/Chapter7/Ch7.3a.given.pdf)
@@ -90,17 +98,26 @@ This is a hybrid synchronous/asynchronous online course.   The materials for thi
 
 **Chapter 8: Set Proofs**
 
+[The video lectures for Chapter 8 are available here](https://youtube.com/playlist?list=PLHmPFY5Rz0RA1KzyJ7WwH61cFeBEWr8lk)
+
 - [Proving x is an element of a set A (Ch8.1)](./notes/Chapter8/Ch8.1.given.pdf)
 - [Proving A is a subset of B (Ch8.2)](./notes/Chapter8/Ch8.2.given.pdf)
 - [Proving set A equals set B (Ch8.3)](./notes/Chapter8/Ch8.3.given.pdf)
 
 **Chapter 9: Disproofs**
 
+[The video lectures for Chapter 9 are available here](https://youtube.com/playlist?list=PLHmPFY5Rz0RCVkEoDbXTW_2qttHm4n2zE)
+
+
 - [Counterexamples (Ch9.1a)](./notes/Chapter9/Ch9.1a.given.pdf)
 - [Proof of non-existence (Ch9.1bc)](./notes/Chapter9/Ch9.1bc.given.pdf)
 - [Disproof by contradiction (Ch9.2-3)](./notes/Chapter9/Ch9.2-3.given.pdf)
 
 **Chapter 10: Induction**
+
+[The video lectures for Chapter 10 are available here](https://youtube.com/playlist?list=PLHmPFY5Rz0RDe8rBqVo1XFJzQVi-7KhkR)
+)
+
 
 - [Mathematical Induction (Ch10.1a)](./notes/Chapter10/Ch10.1a.given.pdf)
 - [Mathematical Induction (Ch10.1b)](./notes/Chapter10/Ch10.1b.given.pdf)
@@ -128,6 +145,9 @@ This is a hybrid synchronous/asynchronous online course.   The materials for thi
 
 **Chapter 11: Relations**
 
+[The video lectures for Chapter 11 are available here.](https://youtube.com/playlist?list=PLHmPFY5Rz0RArorcN4Xn1iiEa8ISRgVRf)
+
+
 - [Relations (Ch11.1)](./notes/Chapter11/Ch11.1.given.pdf)
 - [Properties of Relations (Ch11.2)](./notes/Chapter11/Ch11.2.given.pdf)
 - [Equivalence Relatons (Ch11.3a)](./notes/Chapter11/Ch11.3a.given.pdf)
@@ -137,6 +157,9 @@ This is a hybrid synchronous/asynchronous online course.   The materials for thi
 - [Relations between sets (Ch11.6)](./notes/Chapter11/Ch11.6.given.pdf)
 
 **Chapter 12: Functions**
+
+[The video lectures for Chapter 12 are available here.](https://youtube.com/playlist?list=PLHmPFY5Rz0RAIuGbcGdRQ4fwvBJXJk4GY)
+
 
 - [Functions (Ch12.1a)](./notes/Chapter12/Ch12.1a.given.pdf)
 - [Functions (Ch12.1b)](./notes/Chapter12/Ch12.1b.given.pdf)
