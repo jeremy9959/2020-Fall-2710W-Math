@@ -1,0 +1,91 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{comments-on-homework-problems}{%
+\subsubsection{Comments on homework
+problems}\label{comments-on-homework-problems}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \(\sqrt{6}\) is irrational.
+\item
+  Rational points on \(x^2+y^2=3\).
+\item
+  \(a^2+4a+5\) is odd if and only if \(a\) is even.
+\item
+  If \(x,y\in\mathbb{R}\), then \(x^3+x^2y=y^2+xy\) if and only if
+  \(y=x^2\) or \(y=-x\).
+\end{enumerate}
+
+\hypertarget{sets}{%
+\subsubsection{Sets}\label{sets}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Let \(m\) and \(n\) be integers. Prove that \$ \{ x\in\mathbb{Z} :
+  mn\textbar x\} \subseteq \{x\in\mathbb{Z} : m\textbar x\}
+  \cap \{x\in\mathbb{Z} : n\textbar x\}. \$ When does equality hold?
+\item
+  Suppose \(A, B, C\) are sets. Show
+  \(A×(B\cap C ) = (A\times B)\cap (A\times C)\).
+\item
+  Suppose \(A=\emptyset\). Prove that \(A× B⊆ A× C\) if and only if
+  \(B⊆ C\). What if \(A\) is empty?
+\end{enumerate}
+
+\end{document}

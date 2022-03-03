@@ -1,9 +1,13 @@
 blackboard/
+exams/
 Notability
 ferpa/
 exams/
 auto/
 2019
+*.fdb_latexmk
+*.fls
+*.synctex.gz
 *.out
 *.log
 *.aux
