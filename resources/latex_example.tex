@@ -1,0 +1,69 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amsthm,amsfonts,amssymb}
+\usepackage{hyperref}
+\usepackage{setspace}
+\usepackage[margin=1in]{geometry}
+
+\theoremstyle{definition}
+\newtheorem*{prop}{Proposition}
+\newtheorem*{prob}{Problem}
+
+\newcommand{\exer}[1]{\begin{center}
+    \medskip
+    \textbf{Exercise #1}
+    \medskip\hrule\medskip
+    \end{center}}
+    
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+
+    
+\setlength{\parindent}{15pt}
+\setstretch{1.5}
+
+
+\title{Math 2710}
+\author{Jeremy Teitelbaum}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\paragraph{Problem 2.1}
+Prove that the sum of even numbers is even.
+
+
+\begin{proof}
+If $x$ is even, it means that there is a $y$ so that $x=2y$.
+Suppose that $x_1$ and $x_2$ are even, and that $x_1=2y_1$ and $x_2=2y_2$.  Then
+$$ (x_1+x_2) = (2y_1 + 2y_2) =2 (y_1+y_2)
+$$
+so $x_1+x_2$ is also even. 
+\end{proof}
+
+
+\paragraph{Problem 1.5.2}
+Show that $\sim (P\lor Q)=(\sim P \land \sim Q)$.
+
+\begin{proof}
+Here is a proof by truth table.
+\medskip
+
+\begin{tabular}{|c|c|c|c|c|c|c|}
+\hline
+$P$ & $Q$ & $P\lor Q$ &$\lnot (P\lor Q)$ & $\lnot P$&$\lnot Q$ & $\lnot P \land \lnot Q$\cr
+\hline
+T & T & T & F & F & F & F \cr
+T & F & T & F & F & T & F \cr
+F & T & T & F & T & F & F \cr
+F & F & F & T & T & T & T \cr
+\hline
+\end{tabular}
+
+\medskip\noindent
+Notice that the columns for $\lnot (P\lor Q)$ and $\lnot P \land\lnot Q$ are the same. 
+\end{proof}
+
+
+\end{document}
